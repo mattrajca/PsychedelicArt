@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C92DA11318727DBC001CB225 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92DA11218727DBC001CB225 /* Cocoa.framework */; };
+		C92DA15518728A7F001CB225 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92DA15418728A7F001CB225 /* QuartzCore.framework */; };
+		C9A79E9618735768002CDEEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A79E8D18735768002CDEEE /* AppDelegate.m */; };
+		C9A79E9718735768002CDEEE /* DrawingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A79E8F18735768002CDEEE /* DrawingFilter.m */; };
+		C9A79E9818735768002CDEEE /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A79E9118735768002CDEEE /* Functions.m */; };
+		C9A79E9918735768002CDEEE /* NSArray+Randomness.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A79E9318735768002CDEEE /* NSArray+Randomness.m */; };
+		C9A79E9A18735768002CDEEE /* RenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A79E9518735768002CDEEE /* RenderView.m */; };
+		C9A79EA31873577C002CDEEE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A79E9C1873577C002CDEEE /* MainMenu.xib */; };
+		C9A79EA41873577C002CDEEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A79E9F1873577C002CDEEE /* Images.xcassets */; };
+		C9A79EA51873577C002CDEEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A79EA01873577C002CDEEE /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C92DA10F18727DBC001CB225 /* PsychedelicArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PsychedelicArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92DA11218727DBC001CB225 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C92DA11518727DBC001CB225 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C92DA11618727DBC001CB225 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C92DA11718727DBC001CB225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C92DA15418728A7F001CB225 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C9A79E8C18735768002CDEEE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		C9A79E8D18735768002CDEEE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		C9A79E8E18735768002CDEEE /* DrawingFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingFilter.h; sourceTree = SOURCE_ROOT; };
+		C9A79E8F18735768002CDEEE /* DrawingFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingFilter.m; sourceTree = SOURCE_ROOT; };
+		C9A79E9018735768002CDEEE /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = SOURCE_ROOT; };
+		C9A79E9118735768002CDEEE /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functions.m; sourceTree = SOURCE_ROOT; };
+		C9A79E9218735768002CDEEE /* NSArray+Randomness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Randomness.h"; sourceTree = SOURCE_ROOT; };
+		C9A79E9318735768002CDEEE /* NSArray+Randomness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Randomness.m"; sourceTree = SOURCE_ROOT; };
+		C9A79E9418735768002CDEEE /* RenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderView.h; sourceTree = SOURCE_ROOT; };
+		C9A79E9518735768002CDEEE /* RenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderView.m; sourceTree = SOURCE_ROOT; };
+		C9A79E9D1873577C002CDEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainMenu.xib; sourceTree = "<group>"; };
+		C9A79E9F1873577C002CDEEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = SOURCE_ROOT; };
+		C9A79EA01873577C002CDEEE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		C9A79EA11873577C002CDEEE /* PsychedelicArt-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PsychedelicArt-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C9A79EA21873577C002CDEEE /* PsychedelicArt-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PsychedelicArt-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C92DA10C18727DBC001CB225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92DA11318727DBC001CB225 /* Cocoa.framework in Frameworks */,
+				C92DA15518728A7F001CB225 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C92DA10618727DBC001CB225 = {
+			isa = PBXGroup;
+			children = (
+				C92DA11818727DBC001CB225 /* Source */,
+				C92DA11118727DBC001CB225 /* Frameworks */,
+				C92DA11018727DBC001CB225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C92DA11018727DBC001CB225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C92DA10F18727DBC001CB225 /* PsychedelicArt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C92DA11118727DBC001CB225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C92DA15418728A7F001CB225 /* QuartzCore.framework */,
+				C92DA11218727DBC001CB225 /* Cocoa.framework */,
+				C92DA11418727DBC001CB225 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C92DA11418727DBC001CB225 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C92DA11518727DBC001CB225 /* AppKit.framework */,
+				C92DA11618727DBC001CB225 /* CoreData.framework */,
+				C92DA11718727DBC001CB225 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C92DA11818727DBC001CB225 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C9A79E8C18735768002CDEEE /* AppDelegate.h */,
+				C9A79E8D18735768002CDEEE /* AppDelegate.m */,
+				C9A79E8E18735768002CDEEE /* DrawingFilter.h */,
+				C9A79E8F18735768002CDEEE /* DrawingFilter.m */,
+				C9A79E9018735768002CDEEE /* Functions.h */,
+				C9A79E9118735768002CDEEE /* Functions.m */,
+				C9A79E9218735768002CDEEE /* NSArray+Randomness.h */,
+				C9A79E9318735768002CDEEE /* NSArray+Randomness.m */,
+				C9A79E9418735768002CDEEE /* RenderView.h */,
+				C9A79E9518735768002CDEEE /* RenderView.m */,
+				C92DA11918727DBC001CB225 /* Supporting Files */,
+			);
+			name = Source;
+			path = RandomArt;
+			sourceTree = "<group>";
+		};
+		C92DA11918727DBC001CB225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9A79E9B1873577C002CDEEE /* Base.lproj */,
+				C9A79E9F1873577C002CDEEE /* Images.xcassets */,
+				C9A79EA01873577C002CDEEE /* main.m */,
+				C9A79EA11873577C002CDEEE /* PsychedelicArt-Info.plist */,
+				C9A79EA21873577C002CDEEE /* PsychedelicArt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9A79E9B1873577C002CDEEE /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C9A79E9C1873577C002CDEEE /* MainMenu.xib */,
+			);
+			path = Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C92DA10E18727DBC001CB225 /* PsychedelicArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92DA14018727DBC001CB225 /* Build configuration list for PBXNativeTarget "PsychedelicArt" */;
+			buildPhases = (
+				C92DA10B18727DBC001CB225 /* Sources */,
+				C92DA10C18727DBC001CB225 /* Frameworks */,
+				C92DA10D18727DBC001CB225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PsychedelicArt;
+			productName = PsychedelicArt;
+			productReference = C92DA10F18727DBC001CB225 /* PsychedelicArt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C92DA10718727DBC001CB225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Matt Rajca";
+			};
+			buildConfigurationList = C92DA10A18727DBC001CB225 /* Build configuration list for PBXProject "PsychedelicArt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C92DA10618727DBC001CB225;
+			productRefGroup = C92DA11018727DBC001CB225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C92DA10E18727DBC001CB225 /* PsychedelicArt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C92DA10D18727DBC001CB225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A79EA31873577C002CDEEE /* MainMenu.xib in Resources */,
+				C9A79EA41873577C002CDEEE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C92DA10B18727DBC001CB225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A79E9918735768002CDEEE /* NSArray+Randomness.m in Sources */,
+				C9A79E9618735768002CDEEE /* AppDelegate.m in Sources */,
+				C9A79E9A18735768002CDEEE /* RenderView.m in Sources */,
+				C9A79E9718735768002CDEEE /* DrawingFilter.m in Sources */,
+				C9A79EA51873577C002CDEEE /* main.m in Sources */,
+				C9A79E9818735768002CDEEE /* Functions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9A79E9C1873577C002CDEEE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A79E9D1873577C002CDEEE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C92DA13E18727DBC001CB225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C92DA13F18727DBC001CB225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C92DA14118727DBC001CB225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PsychedelicArt-Prefix.pch";
+				INFOPLIST_FILE = "PsychedelicArt-Info.plist";
+				PRODUCT_NAME = PsychedelicArt;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C92DA14218727DBC001CB225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PsychedelicArt-Prefix.pch";
+				INFOPLIST_FILE = "PsychedelicArt-Info.plist";
+				PRODUCT_NAME = PsychedelicArt;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C92DA10A18727DBC001CB225 /* Build configuration list for PBXProject "PsychedelicArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92DA13E18727DBC001CB225 /* Debug */,
+				C92DA13F18727DBC001CB225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92DA14018727DBC001CB225 /* Build configuration list for PBXNativeTarget "PsychedelicArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92DA14118727DBC001CB225 /* Debug */,
+				C92DA14218727DBC001CB225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C92DA10718727DBC001CB225 /* Project object */;
+}
