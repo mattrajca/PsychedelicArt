@@ -13,7 +13,7 @@
 
 @implementation AppDelegate
 
-#define W 500
+#define W 512
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	srand((unsigned int)time(NULL));
