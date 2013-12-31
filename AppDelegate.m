@@ -62,7 +62,7 @@
 		if (result != NSFileHandlingPanelOKButton)
 			return;
 		
-		CIImage *image = [self generateOutput];
+		CIImage *image = self.renderView.image;
 		
 		NSBitmapImageRep *rep = [[NSBitmapImageRep alloc] initWithCIImage:image];
 		NSData *data = [rep representationUsingType:NSPNGFileType properties:nil];
